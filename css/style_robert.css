@@ -1,0 +1,30 @@
+
+
+.container-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 200px 200px;
+    grid-template-areas:"menu carousel carousel"
+                        "menu ofertas ofertas";
+}
+
+
+.ofertas{
+    grid-area: ofertas;
+    background-color: aqua;
+
+}
+
+.menu{
+    grid-area:menu;
+    background-color: blue;
+    width:200px;
+
+}
+
+.carrusel{
+
+    grid-area: carousel;
+    
+    
+    }
