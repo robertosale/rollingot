@@ -11,7 +11,7 @@ body {
 
 .encabezado {
   /*background: #111111;*/
-  background: linear-gradient(to bottom, #221510, #4b0d0b);
+  background: linear-gradient(to bottom, #4b0d0b, #221510);
   color: #fff;
   padding: .5rem 0;
   transition: all .5s ease; }
@@ -129,7 +129,7 @@ FRASE
 --------------------------------------------*/
 .frase {
   height: 139px;
-  background: linear-gradient(to bottom, #4b250b, #311716);
+  background: linear-gradient(to bottom, #221510, #4b0d0b);
   color: #fff;
   padding: 25px 0; }
 
