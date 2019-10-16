@@ -42,10 +42,6 @@ p {
     color: #999;
 }
 
-html{
-    scroll-behavior:smooth
-}
-
 a,
 a:hover,
 a:focus {
@@ -268,7 +264,7 @@ a.article:hover {
 
     /*cursor got*/
 
-    cursor: url("../img/Cursor/Manodelrey_1_6_c.png"), auto;
+    cursor: url("../images/Cursor/Manodelrey_1_6_c.png"), auto;
 }
 
 .bg-light{
@@ -322,7 +318,7 @@ h3{
 .list-unstyled{
     font-size: 18px;
 
-    cursor: url("../img/Cursor/Manodelrey_1_7_m.png"), auto;
+    cursor: url("../images/Cursor/Manodelrey_1_7_m.png"), auto;
 }
 
 
@@ -330,16 +326,51 @@ h3{
 
 .icoizq{
     width: 25px;
-
-    cursor: url("../img/Cursor/Manodelrey_1_7_m.png"), auto;
+    cursor: url("../images/Cursor/Manodelrey_1_7_m.png"), auto;
 }
 
+.icoizq:hover .palabraicoespe{
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    transition:all .5s ease-in-out;
+    filter: saturate(150%);
+}
+
+
+
+
+.palabraespe:hover{
+    color: #ff0065 ;
+    cursor: url("../images/Cursor/Manodelrey_1_7_m.png"), auto;
+}
+
+.palabrahist:hover{
+    color: #ff0065 ;
+    cursor: url("../images/Cursor/Manodelrey_1_7_m.png"), auto;
+}
+.palabradepo:hover{
+    color: #ff0065 ;
+    cursor: url("../images/Cursor/Manodelrey_1_7_m.png"), auto;
+}
+.palabrajueg:hover{
+    color: #ff0065 ;
+    cursor: url("../images/Cursor/Manodelrey_1_7_m.png"), auto;
+}
+.palabracurs:hover{
+    color: #ff0065 ;
+    cursor: url("../images/Cursor/Manodelrey_1_7_m.png"), auto;
+}
+.palabraencu:hover{
+    color: #ff0065 ;
+    cursor: url("../images/Cursor/Manodelrey_1_7_m.png"), auto;
+}
 
 
 
 /*Card*/
 
 .card{
+    border-radius: 30px !important;
     top:-20px;
     margin: 10px;
     background-color: black !important;
@@ -358,7 +389,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
     color: rgb(255, 255, 255); 
     text-decoration: none;
 
-    cursor: url("../img/Cursor/Manodelrey_1_7_m.png"), auto;
+    cursor: url("../images/Cursor/Manodelrey_1_7_m.png"), auto;
 }
 
 .leer:active{ 
@@ -470,18 +501,46 @@ box-shadow: 0px -5px 5px -6px rgba(0,0,0,0.75);
 }
 
 
+
 .icobajo{
     height: 35px;
     margin-top: 15px;
 
-    cursor: url("../img/Cursor/Manodelrey_1_7_m.png"), auto;
+    cursor: url("../images/Cursor/Manodelrey_1_7_m.png"), auto !important;
 }
 
 .imgicobajo:hover .icobajo{
     -webkit-transform:scale(1.1);
     transform:scale(1.1);
     transition:all .5s ease-in-out;
-    filter: saturate(150%)
+    filter: saturate(150%);
+}
+
+
+/*hover botones bajo*/
+
+.icoespe:hover{
+    content: url("../images/Icon_espe_on_3_1.png")
+}
+
+.icohist:hover{
+    content: url("../images/Icon_hist_on_3_1.png")
+}
+
+.icodepo:hover{
+    content: url("../images/Icon_depo_on_3_1.png")
+}
+
+.icojueg:hover{
+    content: url("../images/Icon_jueg_on_3_1.png")
+}
+
+.icocurs:hover{
+    content: url("../images/Icon_Curs_on_3_1.png")
+}
+
+.icocues:hover{
+    content: url("../images/Icon_encu_on_3_1.png")
 }
 
 /*----------------pablo--------------*/
