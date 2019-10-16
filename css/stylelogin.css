@@ -48,8 +48,8 @@ a {
 
 button {
 	border-radius: 20px;
-	border: 1px solid #618EB2;
-	background-color: #618EB2;
+	border: 1px solid #4b0d0b;
+	background-color: #4b0d0b;
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -87,7 +87,6 @@ input {
 	background-color: #eee;
 	border: none;
 	padding: 12px 15px;
-	margin: 8px 0;
 	width: 100%;
 }
 
