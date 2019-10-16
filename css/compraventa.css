@@ -1,0 +1,19 @@
+html{
+    scroll-behavior:smooth
+}
+
+.row{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.card{
+    transition: all .3s ease-in;
+}
+
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+

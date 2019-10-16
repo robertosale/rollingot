@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Compra/Venta-Westeros</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/compraventa.css">
+
+
+
+    <!-- Cargando fuentes -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic' rel='stylesheet' type='text/css'>
+    <!-- Cargando iconos -->
+    <link href='css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+
+    <!-- Carga de archivos css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/styleTemplate.css">
+
+    
+        <script src="https://kit.fontawesome.com/a5715c233e.js" crossorigin="anonymous"></script>   
+
+        <link rel="icon" href="images/Logo_3_2.png">
+</head>
+
+<body>
+    <div class="padre">
+
+
+
+
+        <header class="encabezado" role="banner" id="encabezado">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <img src="images/logogotwhite.png" alt="Logo del sitio">
+                </a>
+                
+                <button type="button" class="boton-menu d-md-none" data-toggle="collapse" data-target="#menu-principal"
+                    aria-expanded="false">
+                    <i class="fa fa-bars" aria-hidden="true"></i></button>
+
+                <form action="#" id="bloque-buscar" class="collapse">
+                    <div class="contenedor-bloque-buscar">
+                        <input type="text" placeholder="Buscar...">
+                        <input type="submit" value="Buscar">
+                    </div>
+                </form>
+
+                <nav id="menu-principal" class="collapse">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#politicas">Politica</a></li>
+                        <li><a href="template.html">Turismo</a></li>
+                        <li><a href="E_1_Entreten_1.html">Entretenimiento</a></li>
+                        <li class="active"><a href="#">Market</a></li>
+                        <li><a href="contacto.html">Login</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+
+
+        <div class="wrapper">
+            <!-- Sidebar  -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <h3>Categorias</h3>
+                    <strong>GOT</strong>
+                </div>
+
+                <ul class="list-unstyled components">
+                    <li>
+                        <a href="#armas">
+                            <i class="fas fa-khanda"></i>
+                            Armas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#inmuebles">
+                            <i class="fab fa-fort-awesome"></i>
+                            Inmuebles
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#varios">
+                            <i class="fab fa-btc" style="margin-right: 14px"></i>
+                            Varios
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#condiciones">
+                            <i class="fas fa-balance-scale" style="margin-right: 7px"></i>
+                            Condiciones
+                        </a>
+                    </li>
+                    
+                </ul>
+
+                <ul class="list-unstyled CTAs">
+                   
+                    <li>
+                        <a href="index.html" class="article">Volver al Inicio</a>
+                    </li>
+                </ul>
+
+                <img src="images/SimpsonPage.png" alt="" class="img-fluid">
+            </nav>
+
+            <!-- Page Content  -->
+            <div id="content">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+
+                        <button type="button" id="sidebarCollapse" class="btn btn-info btn-style">
+                            <i class="fas fa-align-left"></i>
+                            <span></span>
+                        </button>
+                        <h2> <i class="fas fa-shopping-basket"></i> Market</h2>
+                    </div>
+                </nav>
+                <h2 class="text-center">Ofertas del Dia</h2>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active carousel-image1">
+                            <img class="d-block w-100 img-fluid" src="images/market/banner2resizedFinal.jpg" alt="First slide" >
+                        </div>
+                        <div class="carousel-item carousel-image2">
+                            <img class="d-block w-100 img-fluid" src="images/market/needlebanner.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item carousel-image3">
+                            <img class="d-block w-100 img-fluid" src="images/market/helmetbanner.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <div class="line"></div>
+
+                <a id="armas"></a><h2 class="text-center">Armas</h2>
+                <div class="row">
+
+                    <div class="col-12 col-lg-4">
+                        <div class="card">     <!-- ojo con editar sobre este atributo que nos jode a todos, crear una clase especificamente para esto -->
+
+                            <!-- Card image -->
+                            <div class="view overlay">
+                                <img class="card-img-top"
+                                    src="images/market/helmet_unsullid_resized.jpg"
+                                    alt="Card image cap">
+                                <a>
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+                            <!-- Card content -->
+                            <div class="card-body elegant-color white-text rounded-bottom">
+
+                             
+                                <!-- Title -->
+                                <h4 class="card-title">Casco Inmaculado</h4>
+                                <hr class="hr-light">
+                                <!-- Text -->
+                                <p class="card-text white-text mb-4"> Casco nuevo. Ni un entrenamiento ni combate.
+                                    Cuero de vaca con acero al carbono.
+                                    Se entrega en caja con cargador y accesorios.
+                                </p>
+                                <!-- Link -->
+                                <a href="#!" class="white-text d-flex justify-content-end">
+                                    <h5>Precio: 10 $GD</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="card">
+
+                            <!-- Card image -->
+                            <div class="view overlay">
+                                <img class="card-img-top"
+                                    src="images/market/dothraki_resized.jpg"
+                                    alt="Card image cap">
+                                <a>
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+                            <!-- Card content -->
+                            <div class="card-body elegant-color white-text rounded-bottom">
+
+                                <!-- Title -->
+                                <h4 class="card-title">Arakh Dothraki</h4>
+                                <hr class="hr-light">
+                                <!-- Text -->
+                                <p class="card-text white-text mb-4"> Excelente arma para defensa personal. Muy buen estado.
+                                    Usada por Khal Drogo. Se puede probar sin compromiso.
+                                </p>
+                                <!-- Link -->
+                                <a href="#!" class="white-text d-flex justify-content-end">
+                                    <h5>Precio: 40 $GD </h5>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="card">     <!-- ojo con editar sobre este atributo que nos jode a todos, crear una clase especificamente para esto -->
+
+                            <!-- Card image -->
+                            <div class="view overlay">
+                                <img class="card-img-top"
+                                    src="images/market/needle_resized.jpg"
+                                    alt="Card image cap">
+                                <a>
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+                            <!-- Card content -->
+                            <div class="card-body elegant-color white-text rounded-bottom">
+
+                             
+                                <!-- Title -->
+                                <h4 class="card-title">Espada "Aguja"</h4>
+                                <hr class="hr-light">
+                                <!-- Text -->
+                                <p class="card-text white-text mb-4">Unica dueña. Liviana y ágil. Ideal para protección personal 
+                                    para una mujer. Se entrega afilada y con su respectiva vaina.
+                                </p>
+                                <!-- Link -->
+                                <a href="#!" class="white-text d-flex justify-content-end">
+                                    <h5>Precio: 400 $GD</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="line"></div>
+
+                    </div>
+
+
+                    
+
+                <a id="inmuebles"></a><h2 class="text-center">Inmuebles</h2>
+                <div class="row">
+
+                    <div class="col-12 col-lg-4">
+                        <div class="card">     <!-- ojo con editar sobre este atributo que nos jode a todos, crear una clase especificamente para esto -->
+
+                            <!-- Card image -->
+                            <div class="view overlay">
+                                <img class="card-img-top"
+                                    src="/images/market/castle_black_resized.jpg"
+                                    alt="Card image cap">
+                                <a>
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+                            <!-- Card content -->
+                            <div class="card-body elegant-color white-text rounded-bottom">
+
+                             
+                                <!-- Title -->
+                                <h4 class="card-title">Castle Black</h4>
+                                <hr class="hr-light">
+                                <!-- Text -->
+                                <p class="card-text white-text mb-4">Hermoso castillo. Fresco en invierno, fresco en verano.
+                                    No muy luminoso. Enorme biblioteca. Nunca un caminante blanco.
+                                </p>
+                                <!-- Link -->
+                                <a href="#!" class="white-text d-flex justify-content-end">
+                                    <h5>Precio: 10.000 $GD</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="card">
+
+                            <!-- Card image -->
+                            <div class="view overlay">
+                                <img class="card-img-top"
+                                    src="images/market/mereen_resized.jpg"
+                                    alt="Card image cap">
+                                <a>
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+                            <!-- Card content -->
+                            <div class="card-body elegant-color white-text rounded-bottom">
+
+                                <!-- Title -->
+                                <h4 class="card-title">Pirámide de Meereen</h4>
+                                <hr class="hr-light">
+                                <!-- Text -->
+                                <p class="card-text white-text mb-4">Ubicada al norte de la Bahía de los Esclavos, esta maravillosa Pirámide
+                                    tiene capacidad para alojar hasta 300 esclavos, con su respectivo amo.
+                                </p>
+                                <!-- Link -->
+                                <a href="#!" class="white-text d-flex justify-content-end">
+                                    <h5>Precio: 40.000 $GD (s/esclavos)</h5>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="card">     <!-- ojo con editar sobre este atributo que nos jode a todos, crear una clase especificamente para esto -->
+
+                            <!-- Card image -->
+                            <div class="view overlay">
+                                <img class="card-img-top"
+                                    src="images/market/iron_island_resized.jpg"
+                                    alt="Card image cap">
+                                <a>
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+                            <!-- Card content -->
+                            <div class="card-body elegant-color white-text rounded-bottom">
+
+                             
+                                <!-- Title -->
+                                <h4 class="card-title">Iron Islands</h4>
+                                <hr class="hr-light">
+                                <!-- Text -->
+                                <p class="card-text white-text mb-4">Precioso conjunto de castillos. Vista al mar. Un solo acceso para más 
+                                    seguridad. Ideal para amantes de la navegación y las guerras.
+                                </p>
+                                <!-- Link -->
+                                <a href="#!" class="white-text d-flex justify-content-end">
+                                        <h5>Precio: 30.000 $GD</h5>
+                                    </a>
+                                </div>
+                            </div>
+    
+                        </div>
+                          <div class="line"></div>
+                          
+                    </div>
+
+                <a id="varios"></a><h2 class="text-center">Varios</h2>
+                <div class="row">
+
+                    <div class="col-12 col-lg-4">
+                        <div class="card">     <!-- ojo con editar sobre este atributo que nos jode a todos, crear una clase especificamente para esto -->
+
+                            <!-- Card image -->
+                            <div class="view overlay">
+                                <img class="card-img-top"
+                                    src="/images/market/jamieshand_resized.jpg"
+                                    alt="Card image cap">
+                                <a>
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+                            <!-- Card content -->
+                            <div class="card-body elegant-color white-text rounded-bottom">
+
+                             
+                                <!-- Title -->
+                                <h4 class="card-title">Mano Ortopédica Real</h4>
+                                <hr class="hr-light">
+                                <!-- Text -->
+                                <p class="card-text white-text mb-4">Puro oro fundido. Super anatómica. Se puede usar como arma, para golpear 
+                                    a los enemigos, o para esconder cosas dentro.
+                                </p>
+                                <!-- Link -->
+                                <a href="#!" class="white-text d-flex justify-content-end">
+                                    <h5>Precio: 1.000 $GD</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="card">
+
+                            <!-- Card image -->
+                            <div class="view overlay">
+                                <img class="card-img-top"
+                                    src="images/market/dragon_eggs_resized.jpg"
+                                    alt="Card image cap">
+                                <a>
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+                            <!-- Card content -->
+                            <div class="card-body elegant-color white-text rounded-bottom">
+
+                                <!-- Title -->
+                                <h4 class="card-title">Velas de Huevos de Dragón</h4>
+                                <hr class="hr-light">
+                                <!-- Text -->
+                                <p class="card-text white-text mb-4"> Ideal para homenajear a nuestra reina Daenerys en el Unburnt Day. Duración: Hasta 3 días.
+                                </p>
+                                <!-- Link -->
+                                <a href="#!" class="white-text d-flex justify-content-end">
+                                    <h5>Precio: 40 $GD</h5>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="card">     <!-- ojo con editar sobre este atributo que nos jode a todos, crear una clase especificamente para esto -->
+
+                            <!-- Card image -->
+                            <div class="view overlay">
+                                <img class="card-img-top"
+                                    src="images/market/braavos_coin_resized.jpg"
+                                    alt="Card image cap">
+                                <a>
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+                            <!-- Card content -->
+                            <div class="card-body elegant-color white-text rounded-bottom">
+
+                             
+                                <!-- Title -->
+                                <h4 class="card-title">Moneda Braavosi</h4>
+                                <hr class="hr-light">
+                                <!-- Text -->
+                                <p class="card-text white-text mb-4">Moneda original Jaqen H'ghar. La vendo porque no sé como se usa.
+                                    Era de mi hermana. Se la puede ver sin compromiso.
+                                </p>
+                                <!-- Link -->
+                                <button>Comprar</button>
+                                <a href="#!" class="white-text d-flex justify-content-end">
+                                        <h5>Precio: 350$GD</h5>
+                                    </a>
+                                </div>
+                            </div>
+    
+                        </div>
+                          <div class="line"></div>
+
+                    </div>
+
+                
+
+                    
+
+                    <a id="condiciones"></a><h3 class="text-center">Condiciones</h3>
+                    <p>La empresa no se responsabiliza por el incorrecto uso de los artículos aquí ofrecidos. Los gastos de 
+                        envío y/o de aduana serán contabilizados por la empresa de transporte, totalmente ajena a nosotros.
+                        <br>
+
+                    </p>
+
+                    
+                </div>
+
+                
+
+
+            </div>
+
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img src="./images/rollingot2.png" width="200px" height="auto" alt="">
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- jQuery CDN - Slim version (=without AJAX) -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <!-- Popper.JS -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+                integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+                crossorigin="anonymous"></script>
+            <!-- Bootstrap JS -->
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+                integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+                crossorigin="anonymous"></script>
+
+            <script src="js/scroll.js"></script>
+
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $('#sidebarCollapse').on('click', function () {
+                        $('#sidebar').toggleClass('active');
+                    });
+                });
+            </script>
+
+
+
+</body>
+
+</html>

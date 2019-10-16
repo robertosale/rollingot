@@ -143,12 +143,20 @@ FRASE
 NOTICIAS
 --------------------------------------------*/
 .noticias {
-  padding: 35px 0; }
+  padding: 35px 0; 
+
+  
+}
+.card{
+
+
+
+}
 
 /*---------------------------------------------
 POLITICAS
 --------------------------------------------*/
-.politicas {
+.index-categorias {
   /*padding: 55px 0;*/
   padding-top: 55px;
   height: 467px;
@@ -182,7 +190,7 @@ FOOTER
 --------------------------------------------*/
 .footer {
   height: 100px;
-  background: linear-gradient(to bottom, #4b250b, #311716);
+  background: linear-gradient(to bottom, #231510, #4b0d0b);
   color: #fff;
   padding: 25px 0; }
 
@@ -227,12 +235,29 @@ EMPIEZAN LAS MEDIAS QUERIES
     top: 2.8rem;
     transition: all 0.5s ease; } }
 @media all and (max-width: 800px) {
-  .politicas {
+  .index-categorias {
     padding: 25px 0;
     background-color: #4b250b;
     background-image: none;
     color: #fff;
-    height: auto; } 
+    height: auto; 
+  } 
+}
+@media all and (max-width: 992px) {
+  .index-categorias-card h2
+  {
+    font-size: 22px;
+    transition: all 0.3s;
   }
+
+}
+
+
+
+/*---------------------------------------------
+Efectos con JS
+--------------------------------------------*/
+
+/*---------Scroll to up---------------*/
 
 

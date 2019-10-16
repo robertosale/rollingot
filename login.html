@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript" src="js/script.js"></script>
+
+<head>
+
+	<title>Login</title>
+	<link rel="shortcut icon" href="img/icono.png">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/stylelogin.css">
+	<link rel="stylesheet" href="css/estilos.css">
+
+	<link rel="icon" href="images/Logo_3_2.png">
+
+</head>
+
+<body>
+	<div class="padre">
+		<header class="encabezado p-0" role="banner" id="encabezado">
+			<div class="container">
+				<a href="index.html" class="logo">
+					<img src="images/logogotwhite.png" alt="Logo del sitio">
+				</a>
+
+				<button type="button" class="boton-menu d-md-none" data-toggle="collapse" data-target="#menu-principal"
+					aria-expanded="false">
+					<i class="fa fa-bars" aria-hidden="true"></i></button>
+
+				<form action="#" id="bloque-buscar" class="collapse">
+					<div class="contenedor-bloque-buscar">
+						<input type="text" placeholder="Buscar...">
+						<input type="submit" value="Buscar">
+					</div>
+				</form>
+
+				<nav id="menu-principal" class="collapse">
+					<ul>
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="#politicas">Politica</a></li>
+						<li><a href="turismo.html">Turismo</a></li>
+						<li><a href="E_1_Entreten_1.html">Entretenimiento</a></li>
+						<li><a href="compraventa.html">Marketplace</a></li>
+						<li><a href="login.html">Login</a></li>
+					</ul>
+				</nav>
+
+			</div>
+		</header>
+
+
+
+
+		<div class="container col-md-8 col-sm-10 text-center" id="container-login">
+			<div class="form-container sign-up-container">
+				<form action="#">
+					<h4>Crear cuenta</h4>
+					<input type="text" placeholder="Nombre" required />
+					<br />
+					<input type="text" placeholder="Apellido" required />
+					<br />
+					<input type="date" placeholder="Fecha de Nacimiento" required />
+					<br />
+					<input type="email" placeholder="Email" required />
+					<br />
+					<input type="password" placeholder="Password" required />
+					<br />
+					<button>Registrarse</button>
+				</form>
+			</div>
+			<div class="form-container sign-in-container">
+				<form action="#">
+					<h1>Loguearse</h1>
+
+					<input type="email" placeholder="Email" required />
+
+					<br />
+					<input type="password" placeholder="Password" required />
+					<br />
+
+
+					<a href="#">Olvido su contraseña?</a>
+					<button>Iniciar Sesión</button>
+				</form>
+			</div>
+			<div class="overlay-container">
+				<div class="overlay">
+					<div class="overlay-panel overlay-left">
+						<h1>Bienvenido</h1>
+						<p>Inicie sesión con su información personal</p>
+						<button class="ghost" id="signIn">Iniciar Sesión</button>
+					</div>
+					<div class="overlay-panel overlay-right">
+						<h1>Hola!</h1>
+						<p>Ingrese sus datos personales, para loguearse!</p>
+						<button class="ghost" id="signUp">Registrarse</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<footer>
+			<div class>
+				<p class="m-0 text-center text-white">Copyright &copy; Rolling Code School</p>
+			</div>
+		</footer>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
