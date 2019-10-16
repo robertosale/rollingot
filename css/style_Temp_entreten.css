@@ -42,6 +42,10 @@ p {
     color: #999;
 }
 
+html{
+    scroll-behavior:smooth
+}
+
 a,
 a:hover,
 a:focus {
